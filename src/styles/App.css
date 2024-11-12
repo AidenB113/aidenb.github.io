@@ -1,33 +1,62 @@
-/* Overall App Layout */
+/* App Layout Styling */
 .app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .app-content {
   display: flex;
-  flex: 1;
-  margin-top: 60px; 
-  transition: margin-left 0.3s;
+  transition: margin-left 0.3s ease; /* Smooth transition for sidebar toggle */
+  width: 100%;
 }
 
-.sidebar-open .content {
-  margin-left: 250px;
+.app-content.sidebar-open {
+  margin-left: 250px; /* Sidebar width when open */
 }
 
-.sidebar-closed .content {
-  margin-left: 60px; 
+.app-content.sidebar-closed {
+  margin-left: 60px; /* Sidebar width when closed */
 }
 
-
+/* Content Area Styling */
 .content {
-  flex: 1;
+  flex-grow: 1;
   padding: 20px;
-  background-color: #ecf0f1;
-  overflow-y: auto;
+  transition: margin-left 0.3s ease; /* Smooth transition for content */
+  height: calc(100vh - 60px); /* Full height minus topbar */
+}
+
+/* Center the Content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .content h1 {
+  font-size: 2rem;
   color: #34495e;
-  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+/* Responsive Styling for Sidebar */
+@media (max-width: 768px) {
+  .app-content {
+    flex-direction: column;
+  }
+  
+  .app-content.sidebar-open {
+    margin-left: 0;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 10px;
+  }
 }
