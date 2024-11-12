@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.44aac974.css",
+    "main.js": "/react-gh-pages/static/js/main.553fc8fe.js",
+    "static/js/453.61468adb.chunk.js": "/react-gh-pages/static/js/453.61468adb.chunk.js",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/hamburger-icon.svg": "/react-gh-pages/static/media/hamburger-icon.d394060eabdadc070d3b45787e6095b8.svg",
+    "main.44aac974.css.map": "/react-gh-pages/static/css/main.44aac974.css.map",
+    "main.553fc8fe.js.map": "/react-gh-pages/static/js/main.553fc8fe.js.map",
+    "453.61468adb.chunk.js.map": "/react-gh-pages/static/js/453.61468adb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44aac974.css",
+    "static/js/main.553fc8fe.js"
+  ]
+}
