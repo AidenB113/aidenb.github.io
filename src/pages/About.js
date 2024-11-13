@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => (
   <div>
-    <h1>I Suck</h1>
+    <h1>Currently hold a Bachelors degree in Computer Science from UNE</h1>
   </div>
 );
 
