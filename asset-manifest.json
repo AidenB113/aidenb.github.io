@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aidenb.github.io/static/css/main.bf717904.css",
-    "main.js": "/aidenb.github.io/static/js/main.3bb51a73.js",
-    "static/js/453.61468adb.chunk.js": "/aidenb.github.io/static/js/453.61468adb.chunk.js",
-    "index.html": "/aidenb.github.io/index.html",
-    "static/media/hamburger-icon.svg": "/aidenb.github.io/static/media/hamburger-icon.d394060eabdadc070d3b45787e6095b8.svg",
-    "main.bf717904.css.map": "/aidenb.github.io/static/css/main.bf717904.css.map",
-    "main.3bb51a73.js.map": "/aidenb.github.io/static/js/main.3bb51a73.js.map",
-    "453.61468adb.chunk.js.map": "/aidenb.github.io/static/js/453.61468adb.chunk.js.map"
+    "main.css": "/static/css/main.bf717904.css",
+    "main.js": "/static/js/main.591e24ea.js",
+    "static/js/453.61468adb.chunk.js": "/static/js/453.61468adb.chunk.js",
+    "index.html": "/index.html",
+    "static/media/hamburger-icon.svg": "/static/media/hamburger-icon.d394060eabdadc070d3b45787e6095b8.svg",
+    "main.bf717904.css.map": "/static/css/main.bf717904.css.map",
+    "main.591e24ea.js.map": "/static/js/main.591e24ea.js.map",
+    "453.61468adb.chunk.js.map": "/static/js/453.61468adb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf717904.css",
-    "static/js/main.3bb51a73.js"
+    "static/js/main.591e24ea.js"
   ]
 }
